@@ -10,7 +10,7 @@ params.minlength = 51
 params.mingqual = 30
 
 
-// Also channels are being created. 
+// Create channels. 
 read_pairs_ch = Channel
         .fromFilePairs(params.reads, checkIfExists:true)
 genome = Channel
@@ -23,7 +23,7 @@ include { skewer } from "${projectDir}/modules/skewer"
 include { index ; mapping_bwa } from "${projectDir}/modules/genome_mapping"
 
 
-// Running a workflow with the defined processes here.  
+// Run workflow.  
 workflow {
   fastqc_raw(read_pairs_ch) 
   skewer(read_pairs_ch)
