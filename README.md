@@ -1,6 +1,9 @@
 # Nextflow pipeline to map align reads to genome
 
 
+![alt text](https://github.com/zzzooeee/test-mapping-nextflow/blob/main/dag-chart.png)
+
+
 
 ```
 code block
