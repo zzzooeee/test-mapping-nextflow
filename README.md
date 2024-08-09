@@ -5,7 +5,7 @@ With nextflow I created a pipeline to align paired end reads to a reference geno
 
 ## Pipeline
 
-![alt text](https://github.com/zzzooeee/test-mapping-nextflow/blob/main/dag-chart.png)
+![alt text](https://github.com/zzzooeee/test-mapping-nextflow/blob/main/reports/dag-chart.png)
 
 
 
