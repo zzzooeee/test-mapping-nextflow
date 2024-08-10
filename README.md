@@ -58,6 +58,9 @@ This script loads all the necessary programs (inlcuding nextflow) to run the nex
 ./run_mapping_nextflow.sh
 ```
 
+**Reports mapping example** \
+The reports created by nextflow of the pipeline run on th example data can be found in the *Reports* Folder.
+
 ## Suggested improvements on the pipeline
 
 To run this script in other environments, cluster, clouds,..., the programs needed would have to be embedded differently in the pipeline, through the config files and containers.
