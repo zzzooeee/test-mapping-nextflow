@@ -62,9 +62,9 @@ This script loads all the necessary programs (inlcuding nextflow) to run the nex
 The reports created by nextflow of the pipeline run on th example data can be found in the *Reports* Folder.
 
 ## Suggested improvements on the pipeline
-
-To run this script in other environments, cluster, clouds,..., the programs needed would have to be embedded differently in the pipeline, through the config files and containers.
-It would also be good to add a step to check if the genome is already indexed,and skip this step if the index is already available.
+- Add a Multiqc step at the end to summarise all the quality controls
+- To run this script in other environments, cluster, clouds,..., the programs needed would have to be embedded differently in the pipeline, through the config files and containers.
+- It would also be good to add a step to check if the genome is already indexed,and skip this step if the index is already available.
 
 ## Source reference genome
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
