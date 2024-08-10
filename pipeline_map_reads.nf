@@ -17,7 +17,7 @@ genome = Channel
       .fromPath(params.genome, checkIfExists:true)
 
 
-
+// Import processes
 include { fastqc as fastqc_raw; fastqc as fastqc_trim } from "${projectDir}/modules/fastqc" 
 include { skewer } from "${projectDir}/modules/skewer"
 include { index ; mapping_bwa } from "${projectDir}/modules/genome_mapping"
